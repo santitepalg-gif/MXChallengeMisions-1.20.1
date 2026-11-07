@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="libromx"
+version="1.2.0"
+displayName="Libro MX"
+authors="Tu nombre"
+description='''Libro (tecla G) con misiones, recompensas, notificaciones y cambios de dificultad con tema mexicano. Texto de colores, emojis pixelados y panel de administracion.'''
+
+[[dependencies.libromx]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.libromx]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
